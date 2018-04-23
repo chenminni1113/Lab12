@@ -4,7 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/search"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/search for ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Look up for Ingredients" />
+
+    <Button
+        android:id="@+id/search for categories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="look up for categories" />
 
 </LinearLayout>
